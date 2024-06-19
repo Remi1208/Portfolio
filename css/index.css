@@ -1,0 +1,62 @@
+/* 各區背景圖 */
+#home{
+    background-image: url("../images/封面.jpg")
+}
+#about{
+    background-image: url("../images/關於我.jpg")
+}
+#portfolio{
+    background-image: url("../images/作品集.jpg")
+}
+#website{
+    background-image: url("../images/社群網站.jpg")
+}
+/* #contact{
+    background-image: url("../images/P4-1.jpg")
+} */
+
+/* 將視窗的寬高設定為滿版 */
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+/* 各區共同背景相關設定 */
+section{
+    height: 100%;
+    /* 圖片不重複 */
+    background-repeat: no-repeat;
+    /* 等比例縮放圖片大小 */
+    background-size: auto;
+    /* 圖片從正中央往外擴 */
+    background-position: center center;
+    /* 文字產生距離(有留白區) */
+    padding-top: 100px;
+}
+
+/* 各區的文字範圍 */
+.txt-bg{
+    /* background-color: rgba(255, 255, 255, .6); */
+    /* 邊界寬度 */
+    border-radius: 50px;
+    /* 自動校正 */
+    text-align: justify;
+    /* 圖片邊界內縮 */
+    padding: 50px;
+    /* 圖片大小 */
+    width: 800px;
+    /* 圖片間距 */
+    margin: auto;
+}
+.txt-bg h2{
+    text-align: center;
+}
+.txt-bg h2 i{
+    color: hotpink;
+}
+.container h4{
+    text-align: center;
+    color: black;
+    margin: auto;
+}
